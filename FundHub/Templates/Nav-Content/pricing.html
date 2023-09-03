@@ -1,0 +1,111 @@
+{% extends 'Home_Page/index.html' %} {% block content %}
+<div class="hero bg-pink m-0">
+    <div class="container col-md-10 text-center mt-4 p-2 py-5  ">
+        <h1>
+            It’s free to start on
+            <span class="logo-font h1 text-secondary">FUN HUB</span>
+        </h1>
+    <br>
+        <p>
+            Get all the tools you need to share your work directly with your audience.
+        </p>
+        <p>
+            can choose to introduce paid options at any time to start earning on
+            <span class="logo-fon font-weight-bold">FUN HUB</span>.
+        </p>
+    <br>
+        <a href="{% url 'homepage' %}" class="btn rounded-pill btn-primary text-light px-4 py-2 border-none">Get Started</a>
+    <br>
+        <br /><br />
+    </div>
+    <br>
+</div>
+
+<div class="container my-3">
+    <div class="row mx-2">
+        <div class="text-center w-100">
+            <h2 class="text-center font-weight-bold">Paid membership</h2>
+            <h3 class="text-center h6 p-2 px-5">We only succeed when you succeed. Choose the plan that’s right for you and only pay when you start earning.</h3> 
+            <br>
+        </div>
+        <div class="col-md-4 mt-1 mb-2">
+            <div class="card shadow-sm border-primary mt-1">
+                <div class="card-header">
+                    <h5 class="card-title">Basic Plan</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">For starters</h6>
+                </div>
+                <div class="card-body bg-light">
+                    <ul>
+                        <li>
+                            <p>Access to a library of exclusive podcasts and stand-up comedy shows.</p>
+                        </li>
+                        <li>
+                            <p>Monthly comedy contests with a chance to win prizes.</p>
+                        </li>
+                        <li>
+                            <p>Ad-free listening experience.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text text-center h5">$9.99/month</p>
+                    <a href="#" class="btn rounded-pill btn-primary d-flex justify-content-center mx-5">Choose
+                        Plan</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-1">
+            <div class="card shadow-sm border-primary mt-1">
+                <div class="card-header">
+                    <h5 class="card-title">Pro Plan</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">For professionals</h6>
+                </div>
+                <div class="card-body bg-light">
+                    <ul>
+                        <li>
+                            <p>All features from the Basic Plan plan.</p>
+                        </li>
+                        <li>
+                            <p>Early access to new content and releases.</p>
+                        </li>
+                        <li>
+                            <p>Personalized content recommendations based on your preferences.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text text-center h5">$19.99/month</p>
+                    <a href="#" class="btn rounded-pill btn-primary d-flex justify-content-center mx-5">Choose
+                        Plan</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-1">
+            <div class="card shadow-sm border-primary mt-1">
+                <div class="card-header">
+                    <h5 class="card-title">Premium Plan</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">For experts</h6>
+                </div>
+                <div class="card-body bg-light">
+                    <ul>
+                        <li>
+                            <p>All features from the Premium plan.</p>
+                        </li>
+                        <li>
+                            <p>Unlimited downloads for offline listening.</p>
+                        </li>
+                        <li>
+                            <p>VIP access to live stand-up events and exclusive interviews.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text text-center h5">$29.99/month</p>
+                    <a href="#" class="btn rounded-pill btn-primary d-flex justify-content-center mx-5">Choose
+                        Plan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
